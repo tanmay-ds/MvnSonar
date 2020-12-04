@@ -17,9 +17,6 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.projectKey>tanmay-ds_MvnSonar</sonar.projectKey>
-		<sonar.organization>tanmay-ds</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 
@@ -43,6 +40,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
+			
 		</plugins>
 	</build>
 
