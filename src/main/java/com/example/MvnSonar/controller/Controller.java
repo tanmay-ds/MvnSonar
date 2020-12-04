@@ -5,9 +5,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 	
-	public String hello() {
+	public int hello() {
 		
-		return "hello";
+		int a=1,b=2;
+		
+		return a+b;
 		
 	}
 
