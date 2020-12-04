@@ -1,5 +1,8 @@
 package com.example.MvnSonar.controller;
 
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class Controller {
 
 }
